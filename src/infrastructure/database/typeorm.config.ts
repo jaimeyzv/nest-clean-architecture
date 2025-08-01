@@ -15,4 +15,3 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
     trustServerCertificate: true, // necesario si usas SQL Server local sin certificado
   },
 };
-console.log(typeOrmConfig);
