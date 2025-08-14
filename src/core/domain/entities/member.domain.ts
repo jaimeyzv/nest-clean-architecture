@@ -4,7 +4,7 @@ import { Element } from '../valueObjects/element.valueobject';
 export class MemberDomain {
   constructor(
     public id: number,
-    public name: string,
+    public firstName: string,
     public lastName: string,
     public element: Element,
     public role: Role,

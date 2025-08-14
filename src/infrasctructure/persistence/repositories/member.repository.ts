@@ -14,7 +14,7 @@ export class MemberRepository implements IMemberRepository {
 
   async save(domain: MemberDomain): Promise<MemberDomain> {
     const entity = this.repo.create({
-      firstName: domain.name,
+      firstName: domain.lastName,
       lastName: domain.lastName,
       element: domain.element,
       role: domain.role,
